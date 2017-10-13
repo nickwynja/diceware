@@ -2,9 +2,7 @@ Inspired by Dr.Drang's [Passphrases via shell pipeline](http://leancrew.com/all-
 
 # Install
 
-```
-make install
-```
+Run `make install` to symlink `diceware.py` to `/usr/local/bin/diceware` and install requirements with `pip3`.
 
 # Usage
 
