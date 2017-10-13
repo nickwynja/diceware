@@ -23,8 +23,12 @@ optional arguments:
                         space
 ```
 
+`diceware 3` would get you something like `ligament oversleep ammonia` and `diceware -d _ 5` would get you `playmate_smudgy_onscreen_craziness_diaper`.
+
 # Security
 
 I am not a security expert. This script uses [`secrets`](https://docs.python.org/3/library/secrets.html), which is a "used for generating cryptographically strong random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets." An example similar to this project is shown in the [Recipes and best practices](https://docs.python.org/3/library/secrets.html#recipes-and-best-practices) section, so I trust this is a proper use of `secrets`.
 
 Be aware that the use of `--copy` could expose your passphrase if your system is already compromised. If that's the case, you're already screwed.
+
+Please [create an issue](https://github.com/nickwynja/diceware/issues/new) with any security concerns.
